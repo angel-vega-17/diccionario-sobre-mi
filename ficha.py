@@ -20,7 +20,8 @@ yo={
     "rango_rocket":"Platino 1",
     "Juego_cel":{"juego1":"Efootball","juego2":"Clash of clans"},
     "th_en_clash":"Ayuntamiento 12",
-    "valor_en_pes":{"fuerza":3134,"rango_mas_alto":"Division 2"}
+    "valor_en_pes":{"fuerza":3134,"rango_mas_alto":"Division 2"},
+    "para_probar":"hola como estas"
 }
 print(f"""{Fore.BLUE}{Style.BRIGHT}
 ======================================
@@ -43,7 +44,7 @@ Rango en Rocket League : {yo['rango_rocket']}
 Juego de telefono favorito : {yo['Juego_cel']['juego1']} y {yo['Juego_cel']['juego2']}
 Ayuntamiento en Clash of clans : {yo['th_en_clash']}
 Division en Efootball : {yo['valor_en_pes']['rango_mas_alto']}, Fuerza : {yo['valor_en_pes']['fuerza']}
-
+pa probar : {yo['para_probar']}
 
 
 {Style.RESET_ALL}""")
